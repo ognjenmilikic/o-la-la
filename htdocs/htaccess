@@ -1,0 +1,19 @@
+# Created by https://www.htaccessbuilder.com/
+# Edit at https://www.htaccessbuilder.com/rules/613615ae40ee7/
+# Mon, 6th September 2021
+<IfModule mod_rewrite.c>
+
+# Enable Rewrite Engine
+RewriteEngine On
+RewriteBase /
+
+# Redirect from www.
+RewriteCond %{HTTP_HOST} ^www.o-la-la.rs$
+RewriteRule (.*) https://o-la-la.rs/$1 [R=301,L] 
+
+#RewriteCond %{REQUEST_FILENAME} \.php$ [OR]
+#RewriteCond %{REQUEST_FILENAME} \.shtml$ [OR]
+#RewriteRule .* - [F,L]
+
+
+</IfModule>

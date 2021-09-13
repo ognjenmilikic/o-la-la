@@ -1,0 +1,174 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: #EDFFF6;
+    font-family: 'Poppins', sans-serif;
+}
+.naruci-button{
+    width: 100%;
+    height: 100%;
+    font-size: 1.2em;
+    color: #EDFFF6;
+    background-color: #D19C1D;
+    transition: 0.5s;
+}
+.naruci-button:hover{
+    color: #EDFFF6;
+    background-color: #97721b;
+}
+.naruci-button:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(237 255 225 / 25%);
+}
+.cart-button{
+    font-size: 1.3em;
+    background-color: #EDFFF6;
+    color:#092215;
+    transition: 0.5s;
+}
+.cart-button:hover{
+    background-color: #c1cfc8;
+}
+.cart-button:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(237 255 225 / 25%);
+}
+.section-1-wrapper{
+    background-color: #EDFFF6;
+}
+.section-2-wrapper{
+    background-color: #092215;
+    color: #EDFFF6;
+}
+.accordion-button{
+    color: #EDFFF6;
+    background-color: #D19C1D;
+}
+.accordion-button:not(.collapsed) {
+    color: #092215;
+    background-color: #D19C1D;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-button:focus {
+    border-color: #755711;
+    box-shadow: 0 0 0 0.25rem rgb(26 49 37 / 25%);
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    transform: rotate(-180deg);
+}
+.accordion-item{
+    border: 1px solid #755711;
+}
+.accordion-body{
+    color: #092215;
+    background-color: #EDFFF6;
+}
+.menu-item{
+    border-bottom: 1px solid #092215;
+}
+p{
+    margin-bottom: 0;
+}
+.menu-item-button{
+    padding: 0;
+    color:#092215;
+}
+.menu-item-button:hover{
+    background-color:#D19C1D;
+}
+.menu-item-button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(209 156 79 / 25%);
+}
+.modal-content{
+    background-color: #EDFFF6;
+    color: #092215;
+}
+.modal-header{
+    border-bottom: 1px solid #add0be;
+}
+.modal-footer{
+    border-top: 1px solid #add0be;
+}
+.btn-primary{
+    color:#EDFFF6;
+    background-color: #092215;
+    border-color: #092215;
+}
+.btn-primary:hover{
+    background-color: #05130c;
+    border-color: #05130c;
+}
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    color: #EDFFF6;
+    background-color: #05130c;
+    border-color: #05130c;
+    box-shadow: none;
+}
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #EDFFF6;
+    background-color: #05130c;
+    border-color: #05130c;
+    box-shadow: none;
+}
+.form-check-input:checked {
+    background-color: #092215;
+    border-color: #092215;
+}
+.form-check-input:focus {
+    border-color: #EDFFF6;
+    outline: 0;
+    box-shadow: none;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #092215;
+    outline: 0;
+    box-shadow: none;
+}
+.form-select:focus {
+    border-color: #092215;
+    outline: 0;
+    box-shadow: none;
+}
+.delete-item-button{
+    background-color:transparent;
+    color: #092215;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.delete-item-button:hover{
+    opacity: 1;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #EDFFF6;
+    background-color: #1e6942;
+    border-color: #1e6942;
+}
+.danger-section{
+    background-color: rgb(116, 11, 11);
+    color: #fff;
+    padding: 10px;
+    border: 1px solid rgb(116,11,11);
+    border-radius: 4px;
+}
+.my-facebook-link{
+    color: #EDFFF6;
+    transition: 0.5s;
+}
+.my-facebook-link:hover{
+    color: #edfff6a4;
+}
+.my-facebook-link-2{
+    color:#092215;
+    transition: 0.5s;
+}
+.my-facebook-link-2:hover{
+    color: #020704;
+}

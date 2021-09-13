@@ -1,0 +1,173 @@
+[19-Aug-2021 16:53:24 Europe/Belgrade] PHP Warning:  include(php/vidikovacInfo.php): Failed to open stream: No such file or directory in /home/olalars/public_html/index.php on line 47
+[19-Aug-2021 16:53:24 Europe/Belgrade] PHP Warning:  include(): Failed opening 'php/vidikovacInfo.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/olalars/public_html/index.php on line 47
+[19-Aug-2021 16:53:24 Europe/Belgrade] PHP Warning:  include(php/labudovoInfo.php): Failed to open stream: No such file or directory in /home/olalars/public_html/index.php on line 55
+[19-Aug-2021 16:53:24 Europe/Belgrade] PHP Warning:  include(): Failed opening 'php/labudovoInfo.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/olalars/public_html/index.php on line 55
+[19-Aug-2021 16:53:24 Europe/Belgrade] PHP Warning:  include(php/footer.php): Failed to open stream: No such file or directory in /home/olalars/public_html/index.php on line 56
+[19-Aug-2021 16:53:24 Europe/Belgrade] PHP Warning:  include(): Failed opening 'php/footer.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/olalars/public_html/index.php on line 56
+[19-Aug-2021 16:56:42 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 16:56:42 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/vidikovac.php(57): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 16:56:49 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 16:56:49 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/vidikovac.php(57): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 16:56:57 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 16:56:57 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/labudovobrdo.php(53): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:03:06 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'185.119.89.133' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:03:06 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/vidikovac.php(57): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:03:08 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'185.119.89.133' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:03:08 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/vidikovac.php(57): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:03:09 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'185.119.89.133' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:03:09 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/vidikovac.php(57): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:03:10 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'185.119.89.133' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:03:10 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/vidikovac.php(57): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:03:12 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'185.119.89.133' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:03:12 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/labudovobrdo.php(53): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:03:14 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'185.119.89.133' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:03:14 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/vidikovac.php(57): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:03:16 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'185.119.89.133' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:03:16 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/dostava.php(78): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:09:43 Europe/Belgrade] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:09:43 Europe/Belgrade] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=68742 in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:09:43 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:09:43 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/labudovobrdo.php(53): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:10:17 Europe/Belgrade] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:10:17 Europe/Belgrade] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=68742 in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:10:17 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:10:17 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/labudovobrdo.php(53): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:10:20 Europe/Belgrade] PHP Warning:  Packets out of order. Expected 0 received 80. Packet size=5526600 in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:10:20 Europe/Belgrade] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=69338 in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:10:20 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:10:20 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/dostava.php(78): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:13:09 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'localhost' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:13:09 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/labudovobrdo.php(53): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:13:21 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'localhost' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:13:21 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/vidikovac.php(57): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:13:26 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'localhost' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:13:26 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/labudovobrdo.php(53): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:13:29 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'localhost' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:13:29 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/dostava.php(78): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:14:51 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'localhost' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:14:51 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/dostava.php(78): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:14:52 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'localhost' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:14:52 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/dostava.php(78): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:14:53 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'localhost' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:14:53 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/dostava.php(78): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:20:55 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'185.119.89.133' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:20:55 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/labudovobrdo.php(53): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:23:24 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'185.119.89.133' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:23:24 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/labudovobrdo.php(53): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:25:58 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'185.119.89.133' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:25:58 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/vidikovac.php(57): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:26:02 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'185.119.89.133' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:26:02 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/labudovobrdo.php(53): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:26:05 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'185.119.89.133' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:26:05 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/dostava.php(78): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[19-Aug-2021 17:28:48 Europe/Belgrade] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'olalars_ognjen'@'185.119.89.133' to database 'olalars_jelovnici' in /home/olalars/public_html/php/databaseConnection.php on line 1
+[19-Aug-2021 17:28:48 Europe/Belgrade] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/olalars/public_html/php/databaseConnection.php:2
+Stack trace:
+#0 /home/olalars/public_html/labudovobrdo.php(53): include()
+#1 {main}
+  thrown in /home/olalars/public_html/php/databaseConnection.php on line 2
+[20-Aug-2021 12:53:50 Europe/Belgrade] PHP Warning:  Undefined variable $mysqli in /home/olalars/public_html/vidikovac.php on line 61
+[20-Aug-2021 12:53:50 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/olalars/public_html/vidikovac.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/olalars/public_html/vidikovac.php on line 61
